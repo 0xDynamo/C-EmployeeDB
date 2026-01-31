@@ -5,8 +5,8 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#include "/home/dynamo/workspace/C-learning/capstone/include/common.h"
-#include "/home/dynamo/workspace/C-learning/capstone/include/file.h"
+#include "../include/common.h"
+#include "../include/include/file.h"
 
 int create_db_file(char *filename) {
   if (!strstr(filename, ".db")) {

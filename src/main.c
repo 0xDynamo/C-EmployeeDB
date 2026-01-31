@@ -6,9 +6,9 @@
 #include <string.h>
 #include <unistd.h>
 
-#include "/home/dynamo/workspace/C-learning/capstone/include/common.h"
-#include "/home/dynamo/workspace/C-learning/capstone/include/file.h"
-#include "/home/dynamo/workspace/C-learning/capstone/include/parse.h"
+#include "../include/common.h"
+#include "../include/include/file.h"
+#include "../include/include/parse.h"
 
 void print_usage(char *argv[]) {
   // if (strcmp(argv[1], "-h") == 0) {

@@ -7,8 +7,8 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#include "/home/dynamo/workspace/C-learning/capstone/include/common.h"
-#include "/home/dynamo/workspace/C-learning/capstone/include/parse.h"
+#include "../include/common.h"
+#include "../include/include/parse.h"
 
 void list_employees(struct dbheader_t *dbhdr, struct employee_t *employees) {}
 
