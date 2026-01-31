@@ -6,9 +6,9 @@
 #include <string.h>
 #include <unistd.h>
 
-#include "../include/common.h"
-#include "../include/include/file.h"
-#include "../include/include/parse.h"
+#include "common.h"
+#include "file.h"
+#include "parse.h"
 
 void print_usage(char *argv[]) {
   // if (strcmp(argv[1], "-h") == 0) {

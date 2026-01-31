@@ -5,8 +5,8 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-#include "../include/common.h"
-#include "../include/include/file.h"
+#include "common.h"
+#include "file.h"
 
 int create_db_file(char *filename) {
   if (!strstr(filename, ".db")) {
